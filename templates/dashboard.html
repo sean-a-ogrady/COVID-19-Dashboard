@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script>
+    //Use JSON.parse to transfer data from Python into Javascript
+</script>
+<script type="text/javascript" src="/static/scripts/visualizations.js"></script>
+<script type="text/javascript" src="/static/scripts/dashboard.js"></script>
+
+{% endblock %}
+
+{% block body %}
+<ul class="navbar">
+    <button class="button" onClick="window.location.reload();">Refresh</button>
+</ul>
+<div class="layout">
+    <div id = "slot1" class = "slot"></div>
+    <div id = "slot2" class = "slot"></div>
+    <div id = "slot3" class = "slot"></div>
+    <div id = "slot4" class = "slot"></div>
+</div>
+
+{% endblock %}
+

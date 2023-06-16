@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+    font-family: Helvetica;
+    margin:0px;
+    padding: 0px 20px 0px 20px;
+}
+.page-content {
+    color: white
+}
+.navbar {
+    overflow: hidden;
+    background-color: darkslategray;
+    border-radius: 5px;
+}
+.navbar button:active {
+    position: relative;
+    background-color: rgb(17, 20, 20);
+    top: 2px;
+}
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.layout {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 97.5vw;
+    height: 90vh;
+    
+}
+.slot {
+    background-color: white;
+    border-radius: 5px;
+}
+.ac_legend1 {
+    color: #FF4949;
+}
+.ac_legend2 {
+    color: #0F4392;
+}
